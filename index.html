@@ -19,9 +19,9 @@
   <main class="main">
 
     <section id="add">
-      <label for="add__wrapper_new-task new-task">Add Item</label>
+      <label for="add__wrapper_new-task">Add Item</label>
         <div class="add__wrapper">
-          <input id="add__wrapper_new-task new-task" class="add__wrapper_task-name task-name" type="text">
+          <input id="add__wrapper_new-task" class="add__wrapper_task-name" type="text">
           <button class="add__wrapper_add-btn">Add</button>
         </div>
     </section>
@@ -31,18 +31,18 @@
         <ul id="todo__list">
           <li>
             <input type="checkbox">
-            <label class="todo__list_task-name task-name">Pay Bills</label>
+            <label class="todo__list_task-name">Pay Bills</label>
             <input type="text">
-            <button class="todo__list_edit-btn edit-btn">Edit</button>
+            <button class="todo__list_edit-btn">Edit</button>
             <button class="todo__list_delete-btn">
               <img class="todo__list_delete-img" src="./remove.svg" alt="remove-img">
             </button>
           </li>
-          <li class="todo__list__edit-mode">
+          <li class="edit-mode">
             <input type="checkbox">
-            <label class="todo__list__edit-mode_task-name task-name">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="todo__list__edit-mode_task-name task-name">
-            <button class="todo__list_edit-btn edit-btn">Save</button>
+            <label class="todo__list_task-name">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="todo__list_task-name">
+            <button class="todo__list_edit-btn">Save</button>
             <button class="todo__list_delete-btn">
               <img class="todo__list_delete-img" src="./remove.svg" alt="remove-img">
             </button>
@@ -55,9 +55,9 @@
     <ul id="done__list">
       <li>
         <input type="checkbox" checked>
-        <label class="done__list_task-name task-name">See the Doctor</label>
-        <input type="text" class="done__list_task-name task-name">
-        <button class="done__list_edit-btn edit-btn">Edit</button>
+        <label class="done__list_task-name">See the Doctor</label>
+        <input type="text">
+        <button class="done__list_edit-btn">Edit</button>
         <button class="done__list_delete-btn">
           <img class="done__list_delete-img" src="./remove.svg" alt="remove-img">
         </button>
