@@ -44,22 +44,22 @@ body {
   display: flex;
 }
 
-ul {
+#todo__list,
+#done__list {
   margin: 0;
   padding: 0px;
-}
-
-li,
-h3 {
   list-style: none;
 }
 
-input,
-button {
+input {
   outline: none;
 }
 
-button {
+.add__wrapper_add-btn,
+.todo__list_edit-btn,
+.todo__list_delete-btn,
+.done__list_edit-btn,
+.done__list_delete-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -67,9 +67,14 @@ button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline: none;
 }
 
-button:hover {
+.add__wrapper_add-btn:hover,
+.todo__list_edit-btn:hover,
+.todo__list_delete-btn:hover,
+.done__list_edit-btn:hover,
+.done__list_delete-btn:hover {
   color: #3a3a3a;
 }
 
